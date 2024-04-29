@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from db.db import client
+import uvicorn
 from controller.usuarioCRUD import router as usuarios_router
 
 
