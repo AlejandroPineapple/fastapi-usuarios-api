@@ -4,7 +4,7 @@ from db.db import collection
 from model.usuario import Usuario
 
 router = APIRouter()
-
+#hola xas
 @router.post("/", response_description="Crear un nuevo Usuario", response_model= Usuario)
 async def create_usuario(usuario: Usuario):
 
